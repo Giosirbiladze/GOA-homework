@@ -78,8 +78,49 @@ sum_numbers = sum(numbers)
 print(sum_numbers)
 
 fruits = ["Banana", "Apple", "Orange", "Dragon fruit"]
-strings_lenght = sum(len(s) for s in fruits)
+strings_lenght = sum(len(i) for i in fruits)
 print(strings_lenght)
+
+
+game_result = [
+    [1,0],
+    [2,0],
+    [0,1]
+]
+team_scores = []
+for result in game_result:
+    team_score = result[0]
+    team_scores.append(team_score)
+    
+total = sum(team_scores)
+print(total)
+
+nestedarr = [
+    [1,1],
+    [1,1],
+    [1,1]
+]
+total_count = []
+total_sum = 0
+for i in nestedarr:
+    for j in i:
+        total_sum += j
+        total_count.append(total_sum)
+        total_sum = 0
+print(sum(total_count))
+
+nestedarr = [
+    [1,1],
+    [1,1],
+    [1,1]
+]
+
+total_length = 0
+for i in nestedarr:
+    total_length += len(i)
+
+print(total_length)
+
 
 
 integer_list = [3, 7, 12, 18, 25, 9, 14, 22, 31, 5]
