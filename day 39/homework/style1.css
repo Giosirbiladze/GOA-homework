@@ -1,0 +1,56 @@
+p {
+    margin: 10px 0;
+}
+
+/* Decoration Styles */
+.decoration1 {
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.decoration2 {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.decoration3 {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.decoration4 {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.decoration5 {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.decoration6 {
+    text-decoration: underline;
+    text-decoration-color: #ff0000; /* Red */
+}
+
+.decoration7 {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 255); /* Blue */
+}
+
+.decoration8 {
+    text-decoration: underline;
+    text-decoration-color: #00ff00; /* Green */
+}
+
+.decoration9 {
+    text-decoration: underline;
+    text-decoration-color: #800080; /* Purple */
+    text-decoration-style: double;
+}
+
+.decoration10 {
+    text-decoration: underline;
+    text-decoration-color: #ffa500; /* Orange */
+    text-decoration-style: wavy;
+}

@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    width: 30%; /* Adjust the width of the div block */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.responsive-image {
+    width: 100%; /* Image width relative to the parent div */
+    height: auto; /* Maintain aspect ratio */
+}

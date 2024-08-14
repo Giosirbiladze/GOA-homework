@@ -1,0 +1,21 @@
+/* პირველი ჯგუფი */
+.group1 p {
+    color: blue;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* მეორე ჯგუფი */
+.group2 p {
+    color: green;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* მეექვსე პარაგრაფი */
+#special-paragraph {
+    color: red;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: bold;
+}
