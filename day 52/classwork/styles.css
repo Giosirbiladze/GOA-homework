@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.transform-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    transform-origin: center;
+}
+
+.transform-box:hover {
+    transform: translate(50px, -30px) scale(1.2) rotate(15deg);
+    background-color: #2ecc71;
+}
